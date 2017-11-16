@@ -1,6 +1,4 @@
-# Tugas Besar IF3170
-
-# Inteligensia Buatan 2017/2018 - Aplikasi Web Prediksi Income Per Tahun
+# Tugas Besar IF3170 Inteligensia Buatan 2017/2018 - Aplikasi Web Prediksi Income Per Tahun
 
 ## Pendahuluan
 
