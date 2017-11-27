@@ -1,0 +1,153 @@
+h1 {
+	text-align: center;
+    font-family: Impact;
+    color: #01579B;
+}
+
+body {
+    background-color: #E1BEE7;
+}
+
+.welcomepage {
+    margin-top: 200px;
+    text-align: center;
+    font-family: Impact;
+    color: #311B92;
+    font-size: 80px;
+}
+
+.notwelcomepage {
+    font-family: Impact;
+    color: #311B92;
+}
+
+.notwelcomepageteam_name {
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+
+.notwelcomepageteam_name a {
+    text-decoration: none;
+    font-family: "Tw Cen MT";
+    color: #880E4F;
+    font-size: 20px;
+}
+
+.team_name {
+	text-align: center;
+    margin-top: -40px;
+}
+
+.team_name a {
+    text-decoration: none;
+    font-family: "Tw Cen MT";
+    color: #880E4F;
+    font-size: 20px;
+}
+
+.home {
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+
+.home a {
+    text-decoration: none;
+    font-family: "Tw Cen MT";
+    color: #E65100;
+    font-size: 16px;
+}
+
+.instruction {
+	text-align: center;
+	font-size: 18px;
+	margin-top: 40px;
+    font-family: Calibri;
+
+}
+
+.submit_button {
+	background-color: #E65100;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 16px 2px;
+    cursor: pointer;
+}
+
+.button {
+	background-color: #E65100;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.choice {
+	text-align: center;
+}
+
+form {
+	text-align: center;
+}
+
+.input_set div {
+    padding: 5px 0px;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.label {
+    width: 10%;
+    font-size: 18px;
+    font-family: Calibri;
+}
+
+.field {
+    width: 15%;
+    margin-left: 5px;
+}
+
+.field input {
+	width: 100%; 
+}
+
+.upload {
+    font-size: 18px;
+    font-family: Calibri;
+    margin-bottom: 20px;
+}
+
+.credits .teamname {
+    text-align: center;
+    font-family: "Tw Cen MT";
+    font-size: 36px;
+    color: #880E4F;
+}
+
+.credits .teamakronim {
+    text-align: center;
+    font-family: "Tw Cen MT";
+    font-size: 24px;
+    margin-top: -40px;
+    margin-bottom: 40px;
+    color: #C2185B;
+}
+
+.credits .member{
+    font-size: 18px;
+    font-family: "Tw Cen MT";
+    margin-bottom: 20px;
+    text-align: center;
+    padding: -2px 0;
+}
