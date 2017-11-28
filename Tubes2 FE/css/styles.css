@@ -96,6 +96,9 @@ body {
 	text-align: center;
 }
 
+.fillform  {
+}
+
 form {
 	text-align: center;
 }
@@ -111,11 +114,13 @@ form {
     width: 10%;
     font-size: 18px;
     font-family: Calibri;
+    text-align: left;
 }
 
 .field {
     width: 15%;
     margin-left: 5px;
+    text-align: left;
 }
 
 .field input {

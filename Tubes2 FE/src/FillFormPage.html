@@ -8,7 +8,9 @@
 		<div class="notwelcomepageteam_name"><a href="CreditsPage.html">by Markingat Team</a></div>
 		<div class="home"><a href="HomePage.html">Home</a></div>
 		<p class="instruction">Please fill the form below to get the income prediction</p>
+		
 		<form action="">
+		<div class="fillform">
 			<div class="input_set">
 				<div class="label">Age</div>
 				<div class="field"><input type="text" name="age"></div>
@@ -16,16 +18,18 @@
 
 			<div class="input_set">
 				<div class="label">Workclass</div>
+				<div class="field">
 				<select name="workclass">
-					<option value="Private">Private</option>
-					<option value="Self-emp-not-inc">Self-emp-not-inc</option>
-					<option value="Self-emp-inc">Self-emp-inc</option>
-					<option value="Federal-gov">Federal-gov</option>
-					<option value="Local-gov">Local-gov</option>
-					<option value="State-gov">State-gov</option>
-					<option value="Without-pay">Without-pay</option>
-					<option value="Never-worked">Never-worked</option>
+					<option value="2">Private</option>
+					<option value="1">Self-emp-not-inc</option>
+					<option value="6">Self-emp-inc</option>
+					<option value="3">Federal-gov</option>
+					<option value="4">Local-gov</option>
+					<option value="0">State-gov</option>
+					<option value="7">Without-pay</option>
+					<option value="8">Never-worked</option>
 				</select>
+			</div>
 			</div>
 
 			<div class="input_set">
@@ -35,24 +39,26 @@
 
 			<div class="input_set">
 				<div class="label">Education</div>
+				<div class="field">
 				<select name="education">
-					<option value="Prof-school">Prof-school</option>
-					<option value="Doctorate">Doctorate</option>
-					<option value="Masters">Masters</option>
-					<option value="Bachelors">Bachelors</option>
-					<option value="Some-college">Some-college</option>
-					<option value="Assoc-acdm">Assoc-acdm</option>
-					<option value="Assoc-voc">Assoc-voc</option>
-					<option value="HS-grad">HS-grad</option>
-					<option value="12th">12th</option>
-					<option value="11th">11th</option>
-					<option value="10th">10th</option>
-					<option value="9th">9th</option>
-					<option value="7th-8th">7th-8th</option>
-					<option value="5th-6th">5th-6th</option>
-					<option value="1st-4th">1st-4th</option>
-					<option value="Preschool">Preschool</option>
+					<option value="10">Prof-school</option>
+					<option value="9">Doctorate</option>
+					<option value="3">Masters</option>
+					<option value="0">Bachelors</option>
+					<option value="5">Some-college</option>
+					<option value="6">Assoc-acdm</option>
+					<option value="7">Assoc-voc</option>
+					<option value="1">HS-grad</option>
+					<option value="15">12th</option>
+					<option value="2">11th</option>
+					<option value="12">10th</option>
+					<option value="4">9th</option>
+					<option value="8">7th-8th</option>
+					<option value="11">5th-6th</option>
+					<option value="13">1st-4th</option>
+					<option value="14">Preschool</option>
 				</select>
+			</div>
 			</div>
 
 			<div class="input_set">
@@ -62,66 +68,76 @@
 
 			<div class="input_set">
 				<div class="label">Marital status</div>
+				<div class="field">
 				<select name="marital_status">
-					<option value="Married-civ-spouse">Married-civ-spouse</option>
-					<option value="Divorced">Divorced</option>
-					<option value="Never-married">Never-married</option>
-					<option value="Separated">Separated</option>
-					<option value="Widowed">Widowed</option>
-					<option value="Married-spouse-absent">Married-spouse-absent</option>
-					<option value="Married-AF-spouse">Married-AF-spouse</option>
+					<option value="1">Married-civ-spouse</option>
+					<option value="2">Divorced</option>
+					<option value="0">Never-married</option>
+					<option value="4">Separated</option>
+					<option value="6">Widowed</option>
+					<option value="3">Married-spouse-absent</option>
+					<option value="5">Married-AF-spouse</option>
 				</select>
+			</div>
 			</div>
 
 			<div class="input_set">
 				<div class="label">Occupation</div>
+				<div class="field">
 				<select name="occupation">
-					<option value="Tech-support">Tech-support</option>
-					<option value="Craft-repair">Craft-repair</option>
-					<option value="Other-service">Other-service</option>
-					<option value="Sales">Sales</option>
-					<option value="Exec-managerial">Exec-managerial</option>
-					<option value="Prof-specialty">Prof-specialty</option>
-					<option value="Handlers-cleaners">Handlers-cleaners</option>
-					<option value="Machine-op-inspct">Machine-op-inspct</option>
-					<option value="Adm-clerical">Adm-clerical</option>
-					<option value="Farming-fishing">Farming-fishing</option>
-					<option value="Transport-moving">Transport-moving</option>
-					<option value="Priv-house-serv">Priv-house-serv</option>
-					<option value="Protective-serv">Protective-serv</option>
-					<option value="Armed-Forces">Armed-Forces</option>
+					<option value="10">Tech-support</option>
+					<option value="6">Craft-repair</option>
+					<option value="4">Other-service</option>
+					<option value="5">Sales</option>
+					<option value="1">Exec-managerial</option>
+					<option value="3">Prof-specialty</option>
+					<option value="2">Handlers-cleaners</option>
+					<option value="9">Machine-op-inspct</option>
+					<option value="0">Adm-clerical</option>
+					<option value="8">Farming-fishing</option>
+					<option value="7">Transport-moving</option>
+					<option value="14">Priv-house-serv</option>
+					<option value="12">Protective-serv</option>
+					<option value="13">Armed-Forces</option>
 				</select>
+			</div>
 			</div>
 
 			<div class="input_set">
 				<div class="label">Relationship</div>
+				<div class="field">
 				<select name="relationship">
-					<option value="Wife">Wife</option>
-					<option value="Own-child">Own-child</option>
-					<option value="Husband">Husband</option>
-					<option value="Not-in-family">Not-in-family</option>
-					<option value="Other-relative">Other-relative</option>
-					<option value="Unmarried">Unmarried</option>
+					<option value="2">Wife</option>
+					<option value="3">Own-child</option>
+					<option value="1">Husband</option>
+					<option value="0">Not-in-family</option>
+					<option value="5">Other-relative</option>
+					<option value="4">Unmarried</option>
 				</select>
+			</div>
 			</div>
 
 			<div class="input_set">
 				<div class="label">Race</div>
+				<div class="field">
 				<select name="race">
-					<option value="White">White</option>
-					<option value="Asian-Pac-Islander">Asian-Pac-Islander</option>
-					<option value="Amer-Indian-Eskimo">Amer-Indian-Eskimo</option>
-					<option value="Black">Black</option>
-					<option value="Other">Other</option>
+					<option value="0">White</option>
+					<option value="2">Asian-Pac-Islander</option>
+					<option value="3">Amer-Indian-Eskimo</option>
+					<option value="1">Black</option>
+					<option value="4">Other</option>
 				</select>
+			</div>
 			</div>
 
 			<div class="input_set">
 				<div class="label">Sex</div>
+				<div class="field">
 				<select name="sex">
-					<option value="Female">Female</option>
-					<option value="Male">Male</option>
+					<option value="1">Female</option>
+					<option value="0">Male</option>
 				</select>
+			</div>
 			</div>
 
 			<div class="input_set">
@@ -141,53 +157,56 @@
 
 			<div class="input_set">
 				<div class="label">Native country</div>
+				<div class="field">
 				<select name="native_country" style="max-width: 100%;">
-					<option value="Cambodia">Cambodia</option>
-					<option value="Canada">Canada</option>
-					<option value="China">China</option>
-					<option value="Columbia">Columbia</option>
-					<option value="Cuba">Cuba</option>
-					<option value="Dominican-Republic">Dominican-Republic</option>
-					<option value="Ecuador">Ecuador</option>
-					<option value="El-Salvador">El-Salvador</option>
-					<option value="England">England</option>
-					<option value="France">France</option>
-					<option value="Germany">Germany</option>
-					<option value="Greece">Greece</option>
-					<option value="Guatemala">Guatemala</option>
-					<option value="Haiti">Haiti</option>
-					<option value="Holand-Netherlands">Holand-Netherlands</option>
-					<option value="Honduras">Honduras</option>
-					<option value="Hong">Hong</option>
-					<option value="Hungary">Hungary</option>
-					<option value="India">India</option>
-					<option value="Iran">Iran</option>
-					<option value="Ireland">Ireland</option>
-					<option value="Italy">Italy</option>
-					<option value="Japan">Japan</option>
-					<option value="Jamaica">Jamaica</option>
-					<option value="Laos">Laos</option>
-					<option value="Mexico">Mexico</option>
-					<option value="Nicaragua">Nicaragua</option>
-					<option value="Outlying-US(Guam-USVI-etc)">Outlying-US(Guam-USVI-etc)</option>
-					<option value="Peru">Peru</option>
-					<option value="Philippines">Philippines</option>
-					<option value="Poland">Poland</option>
-					<option value="Portugal">Portugal</option>
-					<option value="Puerto-Rico">Puerto-Rico</option>
-					<option value="Scotland">Scotland</option>
-					<option value="South">South</option>
-					<option value="Taiwan">Taiwan</option>
-					<option value="Thailand">Thailand</option>
-					<option value="Trinadad&Tobago">Trinadad&Tobago</option>
-					<option value="United-States">United-States</option>
-					<option value="Vietnam">Vietnam</option>
-					<option value="Yugoslavia">Yugoslavia</option>
+					<option value="17">Cambodia</option>
+					<option value="10">Canada</option>
+					<option value="28">China</option>
+					<option value="16">Columbia</option>
+					<option value="1">Cuba</option>
+					<option value="24">Dominican-Republic</option>
+					<option value="19">Ecuador</option>
+					<option value="25">El-Salvador</option>
+					<option value="9">England</option>
+					<option value="26">France</option>
+					<option value="11">Germany</option>
+					<option value="35">Greece</option>
+					<option value="27">Guatemala</option>
+					<option value="22">Haiti</option>
+					<option value="41">Holand-Netherlands</option>
+					<option value="8">Honduras</option>
+					<option value="38">Hong</option>
+					<option value="40">Hungary</option>
+					<option value="3">India</option>
+					<option value="12">Iran</option>
+					<option value="39">Ireland</option>
+					<option value="14">Italy</option>
+					<option value="29">Japan</option>
+					<option value="2">Jamaica</option>
+					<option value="20">Laos</option>
+					<option value="5">Mexico</option>
+					<option value="36">Nicaragua</option>
+					<option value="32">Outlying-US(Guam-USVI-etc)</option>
+					<option value="31">Peru</option>
+					<option value="13">Philippines</option>
+					<option value="15">Poland</option>
+					<option value="23">Portugal</option>
+					<option value="7">Puerto-Rico</option>
+					<option value="33">Scotland</option>
+					<option value="6">South</option>
+					<option value="21">Taiwan</option>
+					<option value="18">Thailand</option>
+					<option value="34">Trinadad&Tobago</option>
+					<option value="0">United-States</option>
+					<option value="37">Vietnam</option>
+					<option value="30">Yugoslavia</option>
 				</select>
+			</div>
 			</div>
 			
 			<input type="submit" class="submit_button" value="Submit"></div>
-
+			</div>
 		</form>
+	
 	</body>
 </html>
