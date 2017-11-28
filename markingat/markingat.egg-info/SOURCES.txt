@@ -1,0 +1,7 @@
+MANIFEST.in
+markingat/__init__.py
+markingat.egg-info/PKG-INFO
+markingat.egg-info/SOURCES.txt
+markingat.egg-info/dependency_links.txt
+markingat.egg-info/requires.txt
+markingat.egg-info/top_level.txt
